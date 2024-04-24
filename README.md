@@ -20,10 +20,6 @@ O candidato deve:
 {
   "doctor": {
     "address": {
-      "fullAddress": {
-        "placeId": "12312313",
-        "description": "Ladeira da Cruz da Redenção, 659 - 659 - Candeal, Salvador - BA, 40296-190, Brazil"
-      },
       "uf": "BA",
       "city": "Salvador",
       "district": "Candeal",
