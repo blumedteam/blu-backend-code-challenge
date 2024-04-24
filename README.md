@@ -30,7 +30,7 @@ O candidato deve:
     },
     "name": "Roberto Albuquerques",
     "email": "roberto@outlook.com",
-    "imageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
+    "profileImageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
     "birthday": "1987-07-10T03:00:00.000Z"
   }
 }
@@ -43,7 +43,7 @@ O candidato deve:
   "patient": {
     "name": "Leonardo Souza",
     "age": "37 anos",
-    "imageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
+    "profileImageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
     "birthday": "1987-04-14T03:00:00.000Z"
   }
 }
@@ -70,8 +70,10 @@ Esses são requisitos opcionais. Eles não precisam ser cumpridos e não possuem
 
 Os requisitos _funcionais_ opcionais incluem, não se limitando à:
 
-- Servir os arquivos estáticos através de uma cdn (S3, Cloudfront, etc)
+- Servir os arquivos estáticos (foto de perfil,  por exemplo) através de uma cdn (S3, Cloudfront, etc)
 - Adotar algum fluxo de autenticação
+- Adicionar validações aos formulários
+- Desenvolver outros endpoints/features pertinentes 
 
 Os requisitos _técnicos_ opcionais incluem, não se limitando à:
 
