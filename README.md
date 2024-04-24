@@ -1,6 +1,6 @@
 # Challenge Backend - Blu
 
-Bem vindo ao Code Challenge destinado as vagas de Engenheiro Backend da Blu!
+Bem vindo ao Code Challenge destinado às vagas de Engenheiro Backend da Blu!
 
 Esse é um teste de nivelamento que é destinado à todos os níveis de carreira. Focamos aqui em design de código e design patterns. O objetivo é avaliar sua experiência em escrever código de fácil manutenção, baixo acoplamento e alta coesão.
 
@@ -14,7 +14,7 @@ Esses são requisitos obrigatórios e devem ser cumpridos a fim de possibilitar 
 
 O candidato deve:
 
-- Criar a rota _GET /accounts/doctor/:id_ que retorne o seguinte payload:
+- Criar a rota _GET /accounts/doctor/:id_ que consulte os detalhes de um médico a partir de um `DoctorId` e retorne o seguinte payload:
 
 ```json
 {
@@ -22,34 +22,34 @@ O candidato deve:
     "address": {
       "uf": "BA",
       "city": "Salvador",
-      "district": "Candeal",
-      "street": "Ladeira da Cruz da Redenção",
-      "number": "659",
-      "zipcode": "40296-190",
-      "clinicName": "Clinica BBB"
+      "district": "Stiep",
+      "street": "Travessa Guaricema ",
+      "number": "853",
+      "zipcode": "41770-700",
+      "clinicName": "Clinica Antidoto"
     },
     "name": "Roberto Albuquerques",
     "email": "roberto@outlook.com",
     "imageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
-    "birthday": "1997-03-10T03:00:00.000Z"
+    "birthday": "1987-07-10T03:00:00.000Z"
   }
 }
 ```
 
-- Criar a rota _GET /accounts/patient/:id_ que retorne o seguinte payload:
+- Criar a rota _GET /accounts/patient/:id_ que consulte os detalhes do paciente a partir de um `patientId` e retorne o seguinte payload:
 
 ```json
 {
   "patient": {
-    "name": "Roberto Albuquerques",
-    "age": "26 anos",
+    "name": "Leonardo Souza",
+    "age": "37 anos",
     "imageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
-    "birthday": "1997-03-10T03:00:00.000Z"
+    "birthday": "1987-04-14T03:00:00.000Z"
   }
 }
 ```
 
-- Criar a rota _POST /appointments_ que receba o seguinte payload:
+- Criar a rota _POST /appointments_ que cadastre uma nova consulta medica e receba o seguinte payload:
 
 ```json
 {
