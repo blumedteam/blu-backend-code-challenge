@@ -4,7 +4,7 @@ Bem vindo ao Code Challenge destinado às vagas de Engenheiro Backend da Blu!
 
 Esse é um teste de nivelamento que é destinado à todos os níveis de carreira. Focamos aqui em design de código e design patterns. O objetivo é avaliar sua experiência em escrever código de fácil manutenção, baixo acoplamento e alta coesão.
 
-O desafio consiste em desenvolver uma API Rest com o intuito de servir e persistir informações de perfil do médico, informações do usuário assim como permitir a criação de uma consulta.
+O desafio consiste em desenvolver uma API Rest de um contexto muito proximo da realidsde da Blu. A API deverá servir e persistir informações de perfil do médico e informações do paciente, assim como permitir a criação de uma consulta.
 
 ## Requisitos mínimos (obrigatórios)
 
@@ -73,7 +73,7 @@ Os requisitos _funcionais_ opcionais incluem, não se limitando à:
 - Servir os arquivos estáticos (foto de perfil,  por exemplo) através de uma cdn (S3, Cloudfront, etc)
 - Adotar algum fluxo de autenticação
 - Adicionar validações aos formulários
-- Desenvolver outros endpoints/features pertinentes 
+- Desenvolver outros endpoints/features pertinentes
 
 Os requisitos _técnicos_ opcionais incluem, não se limitando à:
 
