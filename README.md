@@ -70,7 +70,6 @@ Esses são requisitos opcionais. Eles não precisam ser cumpridos e não possuem
 
 Os requisitos _funcionais_ opcionais incluem, não se limitando à:
 
-- Servir os arquivos estáticos (foto de perfil,  por exemplo) através de uma cdn (S3, Cloudfront, etc)
 - Adotar algum fluxo de autenticação
 - Adicionar validações aos formulários
 - Desenvolver outros endpoints/features pertinentes
@@ -78,6 +77,7 @@ Os requisitos _funcionais_ opcionais incluem, não se limitando à:
 Os requisitos _técnicos_ opcionais incluem, não se limitando à:
 
 - Adotar o padrão HATEOAS Restful
+- Servir os arquivos estáticos (foto de perfil, por exemplo) através de uma cdn (S3, Cloudfront, etc)
 - Integrar a solução com algum serviço externo (utilizando uma API Rest, GraphQL ou qualquer outro paradigma de comunicação conveniente)
 - Utilizar NodeJS, NestJS, Express ou qualquer outra biblioteca ou framework server-side JavaScript
 - Adicionar swagger e configurar linters e formatadores
