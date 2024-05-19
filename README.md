@@ -14,42 +14,42 @@ Esses são requisitos obrigatórios e devem ser cumpridos a fim de possibilitar 
 
 O candidato deve:
 
-- Criar a rota _GET /accounts/doctor/:id_ que consulte os detalhes de um médico a partir de um `DoctorId` e retorne o seguinte payload:
+- Criar a rota _GET /accounts/doctor/:id_ que consulte os detalhes de um médico a partir de um `DoctorId` e retorne o payload com o seguinte schema:
 
 ```json
 {
   "doctor": {
     "address": {
-      "uf": "BA",
-      "city": "Salvador",
-      "district": "Stiep",
-      "street": "Travessa Guaricema ",
-      "number": "853",
-      "zipcode": "41770-700",
-      "clinicName": "Clinica Antidoto"
+      "uf": "string",
+      "city": "string",
+      "district": "string",
+      "street": "string",
+      "number": "string",
+      "zipcode": "string",
+      "clinicName": "string"
     },
-    "name": "Roberto Albuquerques",
-    "email": "roberto@outlook.com",
-    "profileImageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
-    "birthday": "1987-07-10T03:00:00.000Z"
+    "name": "string",
+    "email": "string",
+    "profileImageUrl": "string",
+    "birthday": "string"
   }
 }
 ```
 
-- Criar a rota _GET /accounts/patient/:id_ que consulte os detalhes do paciente a partir de um `patientId` e retorne o seguinte payload:
+- Criar a rota _GET /accounts/patient/:id_ que consulte os detalhes do paciente a partir de um `patientId` e retorne o payload com o seguinte schema:
 
 ```json
 {
   "patient": {
-    "name": "Leonardo Souza",
-    "age": "37 anos",
-    "profileImageUrl": "https://blu-s3-staging.s3.us-east-1.amazonaws.com/profile-images/57d4a2754b2f3eefedb99656131091b6-roberto.jpeg",
-    "birthday": "1987-04-14T03:00:00.000Z"
+    "name": "string",
+    "age": "string",
+    "profileImageUrl": "string",
+    "birthday": "string"
   }
 }
 ```
 
-- Criar a rota _POST /appointments_ que cadastre uma nova consulta medica e receba o seguinte payload:
+- Criar a rota _POST /appointments_ que cadastre uma nova consulta medica e receba o payload com o seguinte schema:
 
 ```json
 {
